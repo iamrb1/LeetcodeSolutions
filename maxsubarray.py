@@ -1,5 +1,5 @@
 class Solution:
-    def findMaxAverage(self, nums: List[int], k: int) -> float:
+    def findMaxAverage(self, nums, k: int) -> float:
         m = sum(nums[:k])
         c = m
         for i in range(k, len(nums)):
