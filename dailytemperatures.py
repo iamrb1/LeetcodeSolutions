@@ -12,7 +12,6 @@ def dailyTemperatures(temperatures):
             count = 0
         else:
             s = []
-            while 
     return output
 
 if __name__ == '__main__':
